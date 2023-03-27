@@ -2,8 +2,8 @@ Add in the tutorial image here
 
 ![Tool Logo](Image filename)
 
-# Title of Tutorial
-Description of tutorial including what you will learn and any tools that will be used in the process
+# Joining Tabular Data to Geospatial Data
+This tutorial will look at the steps necessary for joining tabular data to geospatial data using ArcGIS Pro and ArcGIS Online.
 
 ----
 
