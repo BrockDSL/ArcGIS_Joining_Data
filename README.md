@@ -1,6 +1,4 @@
-Add in the tutorial image here 
-
-![Tool Logo](Image filename)
+![image](https://user-images.githubusercontent.com/45638590/228348753-0a461856-6c19-459d-9950-1839ddef6871.png)
 
 # Joining Tabular Data to Geospatial Data
 This tutorial will look at the steps necessary for joining tabular data to geospatial data using ArcGIS Pro and ArcGIS Online.
@@ -113,12 +111,11 @@ Here is a screenshot of the result:
 6. Scroll down to **Join Settings**.
 7. Select OBJECTID for both the Target layer and the Join layer.
 
-![image](https://user-images.githubusercontent.com/45638590/228324747-9feb58d2-75e9-4b3e-9980-c712ce420579.png)
 ![image](https://user-images.githubusercontent.com/45638590/228324823-14643566-2a2d-4c8d-a913-7115d0485a08.png)
 
-8. Scroll down to the Result Layer section and enter a unique output name. 
+8. Scroll down to the **Result Layer** section and enter a unique output name. 
 
-9. Click Run.
+9. Click **Run**.
 10. To see the status of the tool, click the **History** button ![image](https://user-images.githubusercontent.com/45638590/228325510-58538221-a5aa-4f75-b8b9-a5c987de4992.png).  
 11. The resulting feature layer will automatically be added to the map. Click a dot to see the attribute listing in a pop-up. 
 
@@ -126,6 +123,7 @@ Here is a screenshot of the result:
 
 ![image](https://user-images.githubusercontent.com/45638590/228325930-8c46a634-ae5b-4103-9118-69206aadda56.png)
 
+More information about Joins & Relates can be found [here](https://pro.arcgis.com/en/pro-app/latest/help/data/tables/joins-and-relates.htm).  
 
 ----
 
