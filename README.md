@@ -102,16 +102,35 @@ Here is a screenshot of the result:
 ## Joining in ArcGIS Online
 
 1. With the point feature layer active (it will have a blue bar down the side), click the analysis tools from the righthand menu ![image](https://user-images.githubusercontent.com/45638590/228050174-f94a9178-95ad-4448-b75d-3d7a581f0d67.png)
+2. Click the hammer icon ![image](https://user-images.githubusercontent.com/45638590/228323895-9741b872-54ea-4811-be1e-8509f6ef9c32.png)
+3. From the list of geoprocessing tools, under **Summarize Data**, select **Join Features**.  
 
+![image](https://user-images.githubusercontent.com/45638590/228324037-072bbc23-fb5e-4dc9-9c5c-aaad10b15ea6.png)
 
-  
-  
- 
+4. Select the point feature layer as the **Target** Layer.  
+5. Select the table as the **Join** Layer.
+
+6. Scroll down to **Join Settings**.
+7. Select OBJECTID for both the Target layer and the Join layer.
+
+![image](https://user-images.githubusercontent.com/45638590/228324747-9feb58d2-75e9-4b3e-9980-c712ce420579.png)
+![image](https://user-images.githubusercontent.com/45638590/228324823-14643566-2a2d-4c8d-a913-7115d0485a08.png)
+
+8. Scroll down to the Result Layer section and enter a unique output name. 
+
+9. Click Run.
+10. To see the status of the tool, click the **History** button ![image](https://user-images.githubusercontent.com/45638590/228325510-58538221-a5aa-4f75-b8b9-a5c987de4992.png).  
+11. The resulting feature layer will automatically be added to the map. Click a dot to see the attribute listing in a pop-up. 
+
+**NOTE: you may need to turn off visibility of the original point layer.**
+
+![image](https://user-images.githubusercontent.com/45638590/228325930-8c46a634-ae5b-4103-9118-69206aadda56.png)
+
 
 ----
 
 ## Next Steps (Optional)
-This is where you can add any additional resources, follow up tutorial, or workshop reccomendations that users might use to continue learning about the tool described in the tutorial.  The more the better!
+Visualizing geospatial data.
 
 ----
 
