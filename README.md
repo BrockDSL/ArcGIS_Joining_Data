@@ -14,13 +14,13 @@ data files:
 TreeSampleChippewa_COORDINATES.xlsx  
 TreeSampleChippewa_ATTRIBUTES.xlsx
 
-**The Scenario**
+**The Scenario**  
 We will be mapping tree sample data for the neighbourhood of Bridgewater near Niagara Falls and Chippewa. Tree data is often collected with GPS units that capture Geographic Coordinates. Unlike the previous exercise that required street addresses, this activity will plot the X,Y data then join detailed attributes. Sometimes it is easier to collaborate on a field project by having one person record the attributes such as diameter at breat height, tree species, health while another person captures the GPS coordinates. Although this example uses point data, the same steps would apply to boundary files such as census tracts or municipal boundaries and associated tabular data.
 
 
 ----
 
-## Displaying X,Y Data ArcGIS Pro
+## Displaying X,Y Data ArcGIS Pro  
 
 Open the Excel files to see the tabular data before beginning this tutorial. Notice that each table includes an OBJECTID field. First we will display the X,Y data found in TreeSampleChippewa_COORDINATES.xlsx and then the attribute data will be joined with the geospatial data using ArcGIS technologies.
 
@@ -31,27 +31,40 @@ Screenshot of the ATTRIBUTE data:
 ![image](https://user-images.githubusercontent.com/45638590/228039769-3812e7da-155e-4340-a88a-d9e786392436.png)   
 
 
-Run ArcGIS Pro and sign in to Your ArcGIS Organization's URL **brock.maps.arcgis.com**
+1. Run ArcGIS Pro and sign in to Your ArcGIS Organization's URL **brock.maps.arcgis.com** > Brock University (authenticate using Brock credentials)    
+2. Add the .xlsx worksheet for location information 
 
-add the xlsx worksheet called 
-right click the table and select Display X,Y data
-select GCS coordinate system
+![image](https://user-images.githubusercontent.com/45638590/228290539-56173057-9be4-4d49-a60a-c15f2c124b61.png)
+  
+  
+4. Right click the table and select **Display X,Y data**  ![image](https://user-images.githubusercontent.com/45638590/228290643-a6387503-9083-4bdd-98e1-fc8bb5fb5892.png)
+5. Confirm that the X coordinate is matched to Longitude and the Y coordinate is matched to Latitude.  
 
-insert image of x,y data
+**NOTE: The default coordinate system works for our data but you will need to be sure the coordinates you are using match the appropriate coordinate system. Contact maplib@brocku.ca for assistance.**  
 
+![image](https://user-images.githubusercontent.com/45638590/228290825-e2037d19-2c7d-4965-88c6-fa9176b31645.png)
+  
+Here is a screenshot of the result:  
+
+![image](https://user-images.githubusercontent.com/45638590/228291294-e393b4a1-8b36-4fba-a530-6b3730dea4a7.png)
+  
 ## Joining in ArcGIS Pro
 
-add the attribute worksheet called "
+1. Add the attribute worksheet called "TreeSampleChippewaATTRIBUTES > Sheet1$"  
 
-right click the point feature layer and select JOINS & RELATES > Join
+![image](https://user-images.githubusercontent.com/45638590/228292987-37223506-4167-43ef-b775-83eefa3b7dae.png)
+ 
+2. From the Contents list, right click the point feature layer and select **Joins & Relates > Add Join**  
+3. Read each entry carefully to match the OBJECTID field for each data set. See image below:  
 
-OBJECTID field common to each table
+![image](https://user-images.githubusercontent.com/45638590/228293750-97efdf3a-cd70-473a-bacd-997cb96db77a.png)
 
-insert image
+4. Click OK to run the tool.
+5. Open the attribute table for the point feature layer and scroll across (if necessary) to see the newly joined attributes.  
 
-click Run.
+![image](https://user-images.githubusercontent.com/45638590/228294207-81ea8544-3203-44e3-a9cb-112c84e1f262.png)
 
-open the attribute table for the point feature layer.
+
 
 
 ## Displaying in ArcGIS Online  
