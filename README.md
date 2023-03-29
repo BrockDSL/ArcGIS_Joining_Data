@@ -26,10 +26,10 @@ We will be mapping tree sample data for the neighbourhood of Bridgewater near Ni
 Open the Excel files to see the tabular data before beginning this tutorial. Notice that each table includes an OBJECTID field. First we will display the X,Y data found in TreeSampleChippewaCOORDINATES.xlsx and then the attribute data will be joined with the geospatial data using ArcGIS technologies.
 
 Screenshot of the COORDINATE data:  
-![image](https://user-images.githubusercontent.com/45638590/228039559-18895ed2-14fd-47e2-b9d9-0b8a4676e4fe.png)  
+![image of coordinate data](https://user-images.githubusercontent.com/45638590/228039559-18895ed2-14fd-47e2-b9d9-0b8a4676e4fe.png)  
 
 Screenshot of the ATTRIBUTE data:  
-![image](https://user-images.githubusercontent.com/45638590/228039769-3812e7da-155e-4340-a88a-d9e786392436.png)   
+![image of tabular data](https://user-images.githubusercontent.com/45638590/228039769-3812e7da-155e-4340-a88a-d9e786392436.png)   
 
 
 1. Run ArcGIS Pro and sign in to Your ArcGIS Organization's URL **brock.maps.arcgis.com** > Brock University (authenticate using Brock credentials)    
