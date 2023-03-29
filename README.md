@@ -56,10 +56,8 @@ Here is a screenshot of the result:
  
 2. From the Contents list, right click the point feature layer and select **Joins & Relates > Add Join**  
 3. Read each entry carefully to match the OBJECTID field for each data set. See image below:  
-
-![image](https://user-images.githubusercontent.com/45638590/228293750-97efdf3a-cd70-473a-bacd-997cb96db77a.png)
-
-4. Click OK to run the tool.
+![image](https://user-images.githubusercontent.com/45638590/228293750-97efdf3a-cd70-473a-bacd-997cb96db77a.png)  
+4. Click OK to run the tool.  
 5. Open the attribute table for the point feature layer and scroll across (if necessary) to see the newly joined attributes.  
 
 ![image](https://user-images.githubusercontent.com/45638590/228294207-81ea8544-3203-44e3-a9cb-112c84e1f262.png)
