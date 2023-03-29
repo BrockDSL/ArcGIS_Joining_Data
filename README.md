@@ -21,7 +21,7 @@ We will be mapping tree sample data for the neighbourhood of Bridgewater near Ni
 
 ----
 
-## Displaying X,Y Data ArcGIS Pro  
+## Displaying X,Y Data in ArcGIS Pro  
 
 Open the Excel files to see the tabular data before beginning this tutorial. Notice that each table includes an OBJECTID field. First we will display the X,Y data found in TreeSampleChippewaCOORDINATES.xlsx and then the attribute data will be joined with the geospatial data using ArcGIS technologies.
 
@@ -36,10 +36,9 @@ Screenshot of the ATTRIBUTE data:
 2. Add the .xlsx worksheet for location information 
 
 ![image](https://user-images.githubusercontent.com/45638590/228290539-56173057-9be4-4d49-a60a-c15f2c124b61.png)
-  
-  
-4. Right click the table and select **Display X,Y data**  ![image](https://user-images.githubusercontent.com/45638590/228290643-a6387503-9083-4bdd-98e1-fc8bb5fb5892.png)
-5. Confirm that the X coordinate is matched to Longitude and the Y coordinate is matched to Latitude.  
+
+3. Right click the table and select **Display X,Y data**  ![image](https://user-images.githubusercontent.com/45638590/228290643-a6387503-9083-4bdd-98e1-fc8bb5fb5892.png)
+4. Confirm that the X coordinate is matched to Longitude and the Y coordinate is matched to Latitude.  
 
 **NOTE: The default coordinate system works for our data but you will need to be sure the coordinates you are using match the appropriate coordinate system. Contact maplib@brocku.ca for assistance.**  
 
@@ -89,14 +88,14 @@ Here is a screenshot of the result:
 
 11. To add the tabular attribute data, click **Add > Add layer from file**.  
 12. Click **YOUR DEVICE** and browse to the file ![image](https://user-images.githubusercontent.com/45638590/228045678-9e9f9454-4e43-45e7-83df-bdca7fc76197.png)  
-15. Click Next.
-16. Accept all the fields to add and click **Next**.
-17. From the **Location** settings, choose ![image](https://user-images.githubusercontent.com/45638590/228048791-4efbdc14-f218-4ad7-834b-eddd918af270.png)
-18. Click Next.
-19. Enter a *Title, Folder, Tags and summary*.  
-20. Click **Create and add to map**. 
-21. In ArcGIS Online, the tables can be found by clicking the table icon ![image](https://user-images.githubusercontent.com/45638590/228049393-b11dcbcd-b5fb-4cfe-92a8-f6360c17cd93.png) from the left menu options.  
-22. Before continuing, click the layers icon ![image](https://user-images.githubusercontent.com/45638590/228049947-7c305f23-e993-47ec-966a-4ec466e95e22.png)
+13. Click Next.
+14. Accept all the fields to add and click **Next**.
+15. From the **Location** settings, choose ![image](https://user-images.githubusercontent.com/45638590/228048791-4efbdc14-f218-4ad7-834b-eddd918af270.png)
+16. Click Next.
+17. Enter a *Title, Folder, Tags and summary*.  
+18. Click **Create and add to map**. 
+19. In ArcGIS Online, the tables can be found by clicking the table icon ![image](https://user-images.githubusercontent.com/45638590/228049393-b11dcbcd-b5fb-4cfe-92a8-f6360c17cd93.png) from the left menu options.  
+20. Before continuing, click the layers icon ![image](https://user-images.githubusercontent.com/45638590/228049947-7c305f23-e993-47ec-966a-4ec466e95e22.png)
  
 
 
