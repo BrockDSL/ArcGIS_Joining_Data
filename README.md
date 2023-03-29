@@ -1,7 +1,4 @@
-<p align="center" border="1">
-  <img src="https://user-images.githubusercontent.com/45638590/228348753-0a461856-6c19-459d-9950-1839ddef6871.png" />
-</p>
-
+![image showing connection between values and map features](https://user-images.githubusercontent.com/45638590/228618024-2f77ded9-2227-4edf-a1d8-dcb041b2d6ba.png)
 
 # Joining Tabular Data to Geospatial Data
 This tutorial will look at the steps necessary for joining tabular data to geospatial data using ArcGIS Pro and ArcGIS Online.
