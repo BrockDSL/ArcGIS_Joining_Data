@@ -103,13 +103,9 @@ Here is a screenshot of the result:
 
 1. With the point feature layer active (it will have a blue bar down the side), click the analysis tools from the righthand menu ![image](https://user-images.githubusercontent.com/45638590/228050174-f94a9178-95ad-4448-b75d-3d7a581f0d67.png)
 2. Click the hammer icon ![image](https://user-images.githubusercontent.com/45638590/228323895-9741b872-54ea-4811-be1e-8509f6ef9c32.png)
-3. From the list of geoprocessing tools, under **Summarize Data**, select **Join Features**.  
-
-![image](https://user-images.githubusercontent.com/45638590/228324037-072bbc23-fb5e-4dc9-9c5c-aaad10b15ea6.png)
-
+3. From the list of geoprocessing tools, under **Summarize Data**, select **Join Features**. 
 4. Select the point feature layer as the **Target** Layer.  
 5. Select the table as the **Join** Layer.
-
 6. Scroll down to **Join Settings**.
 7. Select OBJECTID for both the Target layer and the Join layer.
 
