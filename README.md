@@ -32,8 +32,8 @@ Screenshot of the ATTRIBUTE data:
 2. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228562697-56d115fa-a1ec-4ea1-8c21-76374c9f84f2.png)
 3. Add the .xlsx worksheet that includes coordinate details  
   
-![image of standalone tables](https://user-images.githubusercontent.com/45638590/228290539-56173057-9be4-4d49-a60a-c15f2c124b61.png)
-
+   ![image of standalone tables](https://user-images.githubusercontent.com/45638590/228290539-56173057-9be4-4d49-a60a-c15f2c124b61.png)
+ 
 4. Right click the table and select **Display X,Y data**  ![image of display xy data](https://user-images.githubusercontent.com/45638590/228290643-a6387503-9083-4bdd-98e1-fc8bb5fb5892.png)
 5. Confirm that the X coordinate is matched to Longitude and the Y coordinate is matched to Latitude.  
 
