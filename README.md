@@ -49,16 +49,16 @@ Here is a screenshot of the result:
 
 1. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228563080-aa5cc71a-5151-457a-b147-1b2b926e697a.png) 
 2. Add the tabular data from the Excel worksheet called "TreeSampleChippewaATTRIBUTES > Sheet1$"  
-
-![image showing Contents listing](https://user-images.githubusercontent.com/45638590/228292987-37223506-4167-43ef-b775-83eefa3b7dae.png)
- 
+   
+   ![image showing Contents listing](https://user-images.githubusercontent.com/45638590/228292987-37223506-4167-43ef-b775-83eefa3b7dae.png)
+   
 3. From the Contents list, right click the point feature layer and select **Joins & Relates > Add Join**  
 4. Read each entry carefully to match the OBJECTID field for each data set. See image below:  
-![image of Add Join dialogue box](https://user-images.githubusercontent.com/45638590/228293750-97efdf3a-cd70-473a-bacd-997cb96db77a.png)  
+   ![image of Add Join dialogue box](https://user-images.githubusercontent.com/45638590/228293750-97efdf3a-cd70-473a-bacd-997cb96db77a.png)  
 5. Click OK to run the tool.  
 6. Open the attribute table for the point feature layer and scroll across (if necessary) to see the newly joined attributes.  
-
-![image showing attribute table](https://user-images.githubusercontent.com/45638590/228294207-81ea8544-3203-44e3-a9cb-112c84e1f262.png)
+   
+   ![image showing attribute table](https://user-images.githubusercontent.com/45638590/228294207-81ea8544-3203-44e3-a9cb-112c84e1f262.png)
 
 
 
@@ -66,9 +66,9 @@ Here is a screenshot of the result:
 ## Displaying in ArcGIS Online  
 
 1. Go to https://arcgis.com and sign in to your ArcGIS Organization using your Brock University credentials.  
-
-![image of your arcgis organization's URL](https://user-images.githubusercontent.com/45638590/228044683-49c2251a-2630-4b20-9f32-de4082156383.png)  
-
+   
+   ![image of your arcgis organization's URL](https://user-images.githubusercontent.com/45638590/228044683-49c2251a-2630-4b20-9f32-de4082156383.png)  
+   
 2. Click the **Map** tab at the top of the screen.
 3. Click **Add > Add layer from file**
 4. Click **YOUR DEVICE** and browse to the file ![image of file name and type](https://user-images.githubusercontent.com/45638590/228046076-8499935e-d128-44bb-9d72-69453ceb71ea.png)
@@ -79,9 +79,9 @@ Here is a screenshot of the result:
 8. Click Next.
 9. Enter a *Title, Folder location in ArcGIS Online, Tags and Summary*.
 10. Click **Create and add to map**.
-
-![image of ArcGIS Online showing points on the map](https://user-images.githubusercontent.com/45638590/228048193-6438eeb8-fc67-4cc8-b54a-4de4e3aa9ed1.png)  
-
+   
+   ![image of ArcGIS Online showing points on the map](https://user-images.githubusercontent.com/45638590/228048193-6438eeb8-fc67-4cc8-b54a-4de4e3aa9ed1.png)  
+   
 11. To add the tabular attribute data, click **Add > Add layer from file**.  
 12. Click **YOUR DEVICE** and browse to the file ![image of file name and type](https://user-images.githubusercontent.com/45638590/228045678-9e9f9454-4e43-45e7-83df-bdca7fc76197.png)  
 13. Click Next.
@@ -104,11 +104,11 @@ Here is a screenshot of the result:
 5. Select the table as the **Join** Layer.
 6. Scroll down to **Join Settings**.
 7. Select OBJECTID for both the Target layer and the Join layer.
-
-![image of Join Settings dialogue box](https://user-images.githubusercontent.com/45638590/228324823-14643566-2a2d-4c8d-a913-7115d0485a08.png)
-
+   
+   ![image of Join Settings dialogue box](https://user-images.githubusercontent.com/45638590/228324823-14643566-2a2d-4c8d-a913-7115d0485a08.png)
+   
 8. Scroll down to the **Result Layer** section and enter a unique output name. 
-
+   
 9. Click **Run**.
 10. To see the status of the tool, click the **History** button ![image of history icon](https://user-images.githubusercontent.com/45638590/228325510-58538221-a5aa-4f75-b8b9-a5c987de4992.png).  
 11. The resulting feature layer will automatically be added to the map. Click a dot to see the attribute listing in a pop-up. 
