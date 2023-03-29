@@ -40,7 +40,7 @@ Screenshot of the ATTRIBUTE data:
 3. Right click the table and select **Display X,Y data**  ![image](https://user-images.githubusercontent.com/45638590/228290643-a6387503-9083-4bdd-98e1-fc8bb5fb5892.png)
 4. Confirm that the X coordinate is matched to Longitude and the Y coordinate is matched to Latitude.  
 
-**NOTE: The default coordinate system works for our data but you will need to be sure the coordinates you are using match the appropriate coordinate system. Contact maplib@brocku.ca for assistance.**  
+**NOTE: The default coordinate system works for our data but you will need to be sure the coordinates you are using match the appropriate coordinate system. Contact [maplib@brocku.ca](mailto:maplib@brocku.ca) for assistance.**  
 
 ![image](https://user-images.githubusercontent.com/45638590/228290825-e2037d19-2c7d-4965-88c6-fa9176b31645.png)
   
