@@ -76,9 +76,9 @@ Here is a screenshot of the result:
 5. Accept the defaults for the *fields to include*, click **Next**.  
 6. Under **Location** settings, select **Latitude and Longitude** from the dropdown options.
 7. Match the fields accordingly.  
-8. Click Next.
-9. Enter a *Title, Folder location in ArcGIS Online, Tags and Summary*.
-10. Click **Create and add to map**.
+8. Click Next.  
+9. Enter a *Title, Folder location in ArcGIS Online, Tags and Summary*.  
+10. Click **Create and add to map**.  
    
    ![image of ArcGIS Online showing points on the map](https://user-images.githubusercontent.com/45638590/228048193-6438eeb8-fc67-4cc8-b54a-4de4e3aa9ed1.png)  
    
