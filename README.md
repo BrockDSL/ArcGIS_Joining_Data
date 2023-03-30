@@ -69,12 +69,12 @@ Here is a screenshot of the result:
    
    ![image of your arcgis organization's URL](https://user-images.githubusercontent.com/45638590/228044683-49c2251a-2630-4b20-9f32-de4082156383.png)  
    
-2. Click the **Map** tab at the top of the screen.
-3. Click **Add > Add layer from file**
-4. Click **YOUR DEVICE** and browse to the file ![image of file name and type](https://user-images.githubusercontent.com/45638590/228046076-8499935e-d128-44bb-9d72-69453ceb71ea.png)
+2. Click the **Map** tab at the top of the screen.  
+3. Click **Add > Add layer from file**  
+4. Click **YOUR DEVICE** and browse to the file ![image of file name and type](https://user-images.githubusercontent.com/45638590/228046076-8499935e-d128-44bb-9d72-69453ceb71ea.png)  
    
 5. Accept the defaults for the *fields to include*, click **Next**.  
-6. Under **Location** settings, select **Latitude and Longitude** from the dropdown options.
+6. Under **Location** settings, select **Latitude and Longitude** from the dropdown options.  
 7. Match the fields accordingly.  
 8. Click Next.  
 9. Enter a *Title, Folder location in ArcGIS Online, Tags and Summary*.  
