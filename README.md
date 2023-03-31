@@ -30,7 +30,7 @@ Screenshot of the ATTRIBUTE data:
 
 1. Run ArcGIS Pro and sign in to Your ArcGIS Organization's URL **brock.maps.arcgis.com** > Brock University (authenticate using Brock credentials)    
 2. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228562697-56d115fa-a1ec-4ea1-8c21-76374c9f84f2.png)
-3. Add the .xlsx worksheet that includes coordinate details  
+3. Add the .xlsx worksheet that includes coordinate details. The table appears under **Standalone tables**.  
   
    ![image of standalone tables](https://user-images.githubusercontent.com/45638590/228290539-56173057-9be4-4d49-a60a-c15f2c124b61.png)
  
@@ -47,8 +47,8 @@ Here is a screenshot of the result:
   
 ## Joining in ArcGIS Pro
 
-1. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228563080-aa5cc71a-5151-457a-b147-1b2b926e697a.png) 
-2. Add the tabular data from the Excel worksheet called "TreeSampleChippewaATTRIBUTES > Sheet1$"  
+1. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228563080-aa5cc71a-5151-457a-b147-1b2b926e697a.png). 
+2. Add the **tabular data** from the Excel worksheet called "TreeSampleChippewaATTRIBUTES > Sheet1$"  
    
    ![image showing Contents listing](https://user-images.githubusercontent.com/45638590/228292987-37223506-4167-43ef-b775-83eefa3b7dae.png)
    
@@ -122,7 +122,7 @@ More information about Joins & Relates can be found [here](https://pro.arcgis.co
 ----
 
 ## Next Steps (Optional)
-Visualizing geospatial data.
+[Visualizing geospatial data](https://brockdsl.github.io/ArcGIS_Visualization/)
 
 ----
 
