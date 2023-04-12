@@ -30,37 +30,39 @@ Screenshot of the ATTRIBUTE data:
 
 1. Run ArcGIS Pro and sign in to Your ArcGIS Organization's URL **brock.maps.arcgis.com** > Brock University (authenticate using Brock credentials)    
 2. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228562697-56d115fa-a1ec-4ea1-8c21-76374c9f84f2.png)
-3. Add the .xlsx worksheet that includes coordinate details. The table appears under **Standalone tables**.  
+3. Add the .xlsx worksheet that includes coordinate details. If prompted to update drivers, try saving the xlsx file as a comma separated values (CSV) file. The table appears under **Standalone tables**.  
   
-   ![image of standalone tables](https://user-images.githubusercontent.com/45638590/228290539-56173057-9be4-4d49-a60a-c15f2c124b61.png)
- 
+   ![image of standalone tables](https://user-images.githubusercontent.com/45638590/231500314-33fd32b5-ed95-4a95-b4ce-822978d78f24.png)
+
 4. Right click the table and select **Display X,Y data**  ![image of display xy data](https://user-images.githubusercontent.com/45638590/228290643-a6387503-9083-4bdd-98e1-fc8bb5fb5892.png)
 5. Confirm that the X coordinate is matched to Longitude and the Y coordinate is matched to Latitude.  
 
 **NOTE: The default coordinate system works for our data but you will need to be sure the coordinates you are using match the appropriate coordinate system. Contact [maplib@brocku.ca](mailto:maplib@brocku.ca) for assistance.**  
 
-  ![image of Display XY data dialogue box](https://user-images.githubusercontent.com/45638590/228290825-e2037d19-2c7d-4965-88c6-fa9176b31645.png)
-  
+  ![image of Display XY data dialogue box](https://user-images.githubusercontent.com/45638590/231500864-0bcfec1c-5e82-4f85-8f12-dd87d86bcf85.png)
+
 Here is a screenshot of the result:  
 
-  ![image showing points on map](https://user-images.githubusercontent.com/45638590/228291294-e393b4a1-8b36-4fba-a530-6b3730dea4a7.png)
+  ![image of map showing dots](https://user-images.githubusercontent.com/45638590/231501229-17efdc1e-ab40-4d64-96f7-cd92a16703b2.png)
+
   
 ## Joining in ArcGIS Pro
 
 1. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228563080-aa5cc71a-5151-457a-b147-1b2b926e697a.png). 
-2. Add the **tabular data** from the Excel worksheet called "TreeSampleChippawaATTRIBUTES > Sheet1$"  
+2. Add the **tabular data** from the Excel worksheet called "TreeSampleChippawaATTRIBUTES > Sheet1$". Alternately, add a CSV version of the spreadsheet.
    
-   ![image showing Contents listing](https://user-images.githubusercontent.com/45638590/228292987-37223506-4167-43ef-b775-83eefa3b7dae.png)
+   ![image showing content listing with attribute CSV](https://user-images.githubusercontent.com/45638590/231501745-df653014-f914-4d3f-ab46-17d8d40369bf.png)
+
    
 3. From the Contents list, right click the point feature layer and select **Joins & Relates > Add Join**  
 4. Read each entry carefully to match the OBJECTID field for each data set. See image below:  
-   ![image of Add Join dialogue box](https://user-images.githubusercontent.com/45638590/228293750-97efdf3a-cd70-473a-bacd-997cb96db77a.png)  
+   
+   ![image of Add join window](https://user-images.githubusercontent.com/45638590/231502658-864c8376-a3e1-4d27-a7f6-fb27e8fbc4fc.png)
+   
 5. Click OK to run the tool.  
 6. Open the attribute table for the point feature layer and scroll across (if necessary) to see the newly joined attributes.  
    
-   ![image showing attribute table](https://user-images.githubusercontent.com/45638590/228294207-81ea8544-3203-44e3-a9cb-112c84e1f262.png)
-
-
+   ![image of attribute table with join](https://user-images.githubusercontent.com/45638590/231503043-2a719fc9-49fe-4011-8ac4-5b578beca3a9.png)
 
 
 ## Displaying in ArcGIS Online  
