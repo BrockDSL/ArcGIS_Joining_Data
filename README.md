@@ -73,27 +73,28 @@ Here is a screenshot of the result:
    
 2. Click the **Map** tab at the top of the screen.  
 3. Click **Add > Add layer from file**  
-4. Click **YOUR DEVICE** and browse to the file ![image of file name and type](https://user-images.githubusercontent.com/45638590/228046076-8499935e-d128-44bb-9d72-69453ceb71ea.png)  
+4. Click **YOUR DEVICE** and browse to the file ![image of name and file type CSV](https://user-images.githubusercontent.com/45638590/231506073-59fbc519-f26a-49c6-bf95-b5778ef52733.png) 
    
-5. Accept the defaults for the *fields to include*, click **Next**.  
+5. Accept the defaults for the *Fields*, click **Next**.  
 6. Under **Location** settings, select **Latitude and Longitude** from the dropdown options.  
 7. Match the fields accordingly.  
 8. Click Next.  
 9. Enter a *Title, Folder location in ArcGIS Online, Tags and Summary*.  
 10. Click **Create and add to map**.  
    
-   ![image of ArcGIS Online showing points on the map](https://user-images.githubusercontent.com/45638590/228048193-6438eeb8-fc67-4cc8-b54a-4de4e3aa9ed1.png)  
+   ![image of ArcGIS online with map of points](https://user-images.githubusercontent.com/45638590/231505793-e2f54694-62ca-40e3-9df3-ac65348eb808.png)  
    
 11. To add the tabular attribute data, click **Add > Add layer from file**.  
-12. Click **YOUR DEVICE** and browse to the file ![image of file name and type](https://user-images.githubusercontent.com/45638590/228045678-9e9f9454-4e43-45e7-83df-bdca7fc76197.png)  
-13. Click Next.
-14. Accept all the fields to add and click **Next**.
-15. From the **Location** settings, choose ![image showing selection option](https://user-images.githubusercontent.com/45638590/228048791-4efbdc14-f218-4ad7-834b-eddd918af270.png)
-16. Click Next.
-17. Enter a *Title, Folder, Tags and summary*.  
-18. Click **Create and add to map**. 
-19. In ArcGIS Online, the tables can be found by clicking the table icon ![image of tables icon](https://user-images.githubusercontent.com/45638590/228049393-b11dcbcd-b5fb-4cfe-92a8-f6360c17cd93.png) from the left menu options.  
-20. Before continuing, click the layers icon ![image of layers icon](https://user-images.githubusercontent.com/45638590/228049947-7c305f23-e993-47ec-966a-4ec466e95e22.png)
+12. Click **YOUR DEVICE** and browse to the file ![image of attribute CSV](https://user-images.githubusercontent.com/45638590/231506710-b816e52d-c66e-41e3-93bb-a2d6cefc9ce6.png)
+
+14. Click Next.
+15. Accept all the fields to add and click **Next**.
+16. From the **Location** settings, choose ![image showing selection option](https://user-images.githubusercontent.com/45638590/228048791-4efbdc14-f218-4ad7-834b-eddd918af270.png)
+17. Click Next.
+18. Enter a *Title, Folder, Tags and summary*.  
+19. Click **Create and add to map**. 
+20. In ArcGIS Online, the tables can be found by clicking the table icon ![image of tables icon](https://user-images.githubusercontent.com/45638590/228049393-b11dcbcd-b5fb-4cfe-92a8-f6360c17cd93.png) from the left menu options.  
+21. Before continuing, click the layers icon ![image of layers icon](https://user-images.githubusercontent.com/45638590/228049947-7c305f23-e993-47ec-966a-4ec466e95e22.png)
  
 
 
@@ -117,7 +118,7 @@ Here is a screenshot of the result:
 
 **NOTE: you may need to turn off visibility of the original point layer.**
 
-![image of popup for point feature](https://user-images.githubusercontent.com/45638590/228325930-8c46a634-ae5b-4103-9118-69206aadda56.png)
+![image of popup illustrating join result](https://user-images.githubusercontent.com/45638590/231508546-a0f0fce9-1d5d-40f6-bb0c-6fbb075e6f04.png)
 
 More information about Joins & Relates can be found [here](https://pro.arcgis.com/en/pro-app/latest/help/data/tables/joins-and-relates.htm).  
 
