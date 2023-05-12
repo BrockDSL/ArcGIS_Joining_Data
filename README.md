@@ -54,7 +54,7 @@ Here is a screenshot of the result:
    ![image showing content listing with attribute CSV](https://user-images.githubusercontent.com/45638590/231501745-df653014-f914-4d3f-ab46-17d8d40369bf.png)
 
    
-3. From the Contents list, right click the point feature layer and select **Joins & Relates > Add Join**  
+3. From the Contents list, right click the point feature layer and select **Joins & Relates > Add Join**.  
 4. Read each entry carefully to match the OBJECTID field for each data set. See image below:  
    
    ![image of Add join window](https://user-images.githubusercontent.com/45638590/231502658-864c8376-a3e1-4d27-a7f6-fb27e8fbc4fc.png)
@@ -72,8 +72,8 @@ Here is a screenshot of the result:
    ![image of your arcgis organization's URL](https://user-images.githubusercontent.com/45638590/228044683-49c2251a-2630-4b20-9f32-de4082156383.png)  
    
 2. Click the **Map** tab at the top of the screen.  
-3. Click **Add > Add layer from file**  
-4. Click **YOUR DEVICE** and browse to the file ![image of name and file type CSV](https://user-images.githubusercontent.com/45638590/231506073-59fbc519-f26a-49c6-bf95-b5778ef52733.png) 
+3. Click **Add > Add layer from file**.  
+4. Click **YOUR DEVICE** and browse to the file ![image of name and file type CSV](https://user-images.githubusercontent.com/45638590/231506073-59fbc519-f26a-49c6-bf95-b5778ef52733.png). 
    
 5. Accept the defaults for the *Fields*, click **Next**.  
 6. Under **Location** settings, select **Latitude and Longitude** from the dropdown options.  
@@ -94,19 +94,19 @@ Here is a screenshot of the result:
 18. Enter a *Title, Folder, Tags and summary*.  
 19. Click **Create and add to map**. 
 20. In ArcGIS Online, the tables can be found by clicking the table icon ![image of tables icon](https://user-images.githubusercontent.com/45638590/228049393-b11dcbcd-b5fb-4cfe-92a8-f6360c17cd93.png) from the left menu options.  
-21. Before continuing, click the layers icon ![image of layers icon](https://user-images.githubusercontent.com/45638590/228049947-7c305f23-e993-47ec-966a-4ec466e95e22.png)
+21. Before continuing, click the layers icon ![image of layers icon](https://user-images.githubusercontent.com/45638590/228049947-7c305f23-e993-47ec-966a-4ec466e95e22.png).
  
 
 
 ## Joining in ArcGIS Online
 
-1. With the point feature layer active (it will have a blue bar down the side), click the analysis tools from the righthand menu ![image of analysis tools icon](https://user-images.githubusercontent.com/45638590/228050174-f94a9178-95ad-4448-b75d-3d7a581f0d67.png)
-2. Click the hammer icon ![image of hammer icon](https://user-images.githubusercontent.com/45638590/228323895-9741b872-54ea-4811-be1e-8509f6ef9c32.png)
+1. With the point feature layer active (it will have a blue bar down the side), click the analysis tools from the righthand menu ![image of analysis tools icon](https://user-images.githubusercontent.com/45638590/228050174-f94a9178-95ad-4448-b75d-3d7a581f0d67.png).
+2. Click the hammer icon ![image of hammer icon](https://user-images.githubusercontent.com/45638590/228323895-9741b872-54ea-4811-be1e-8509f6ef9c32.png).
 3. From the list of geoprocessing tools, under **Summarize Data**, select **Join Features**. 
 4. Select the point feature layer as the **Target** Layer.  
 5. Select the table as the **Join** Layer.
 6. Scroll down to **Join Settings**.
-7. Select OBJECTID for both the Target layer and the Join layer.
+7. Select OBJECTID for both the **Target** layer and the **Join** layer.
    
    ![image of Join Settings dialogue box](https://user-images.githubusercontent.com/45638590/228324823-14643566-2a2d-4c8d-a913-7115d0485a08.png)
    
@@ -120,7 +120,7 @@ Here is a screenshot of the result:
 
 ![image of popup illustrating join result](https://user-images.githubusercontent.com/45638590/231508546-a0f0fce9-1d5d-40f6-bb0c-6fbb075e6f04.png)
 
-More information about Joins & Relates can be found [here](https://pro.arcgis.com/en/pro-app/latest/help/data/tables/joins-and-relates.htm).  
+More information about **Joins & Relates** can be found [here](https://pro.arcgis.com/en/pro-app/latest/help/data/tables/joins-and-relates.htm).  
 
 ----
 
