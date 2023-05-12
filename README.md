@@ -13,14 +13,14 @@ Data files:
 [TreeSampleChippawaATTRIBUTES_CSV.csv](TreeSampleChippawaATTRIBUTES_CSV.csv)  
 
 **The Scenario**  
-We will be mapping tree sample data for the neighbourhood of Bridgewater near Niagara Falls and Chippawa. Tree data is often collected with GPS units that capture Geographic Coordinates. Unlike the previous exercise that required street addresses, this activity will plot the X,Y data then join detailed attributes. Sometimes it is easier to collaborate on a field project by having one person record the attributes such as diameter at breat height, tree species, health while another person captures the GPS coordinates. Although this example uses point data, the same general steps would apply to boundary files such as census tracts or municipal boundaries and associated tabular data.
+We will be mapping tree sample data for the neighbourhood of Bridgewater near Niagara Falls and Chippawa. Tree data is often collected with GPS units that capture Geographic Coordinates. Unlike the previous exercise that required street addresses, this activity will plot the X,Y data then join detailed attributes. Sometimes it is easier to collaborate on a field project by having one person record the attributes such as diameter at breast height, tree species and health, while another person captures the GPS coordinates. Although this example uses point data, the same general steps would apply to boundary files such as census tracts or municipal boundaries and associated tabular data.
 
 
 ----
 
 ## Displaying X,Y Data in ArcGIS Pro  
 
-Open the Comma-separated values (CSV) files to see the tabular data before beginning this tutorial. Notice that each table includes an OBJECTID field. First we will display the X,Y data found in TreeSampleChippawaCOORDINATES_CSV.csv and then the attribute data will be joined with the geospatial data using ArcGIS technologies.
+Open the Comma-separated values (CSV) files to see the tabular data before beginning this tutorial. Notice that each table includes an **OBJECTID** field. First, we will display the X,Y data found in TreeSampleChippawaCOORDINATES_CSV.csv and then the attribute data will be joined with the geospatial data using ArcGIS technologies.
 
 Screenshot of the COORDINATE data:  
   ![image of coordinate data](https://user-images.githubusercontent.com/45638590/228039559-18895ed2-14fd-47e2-b9d9-0b8a4676e4fe.png)  
@@ -28,9 +28,9 @@ Screenshot of the COORDINATE data:
 Screenshot of the ATTRIBUTE data:  
   ![image of tabular data](https://user-images.githubusercontent.com/45638590/228039769-3812e7da-155e-4340-a88a-d9e786392436.png)   
 
-1. Run ArcGIS Pro and sign in to Your ArcGIS Organization's URL **brock.maps.arcgis.com** > Brock University (authenticate using Brock credentials)    
-2. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228562697-56d115fa-a1ec-4ea1-8c21-76374c9f84f2.png)
-3. Add the .xlsx worksheet that includes coordinate details. If prompted to update drivers, try saving the xlsx file as a comma separated values (CSV) file. The table appears under **Standalone tables**.  
+1. Run ArcGIS Pro and sign in to Your ArcGIS Organization's URL **brock.maps.arcgis.com** > Brock University (authenticate using Brock credentials).    
+2. From the **Map** tab, click ![image of Add Data button](https://user-images.githubusercontent.com/45638590/228562697-56d115fa-a1ec-4ea1-8c21-76374c9f84f2.png).
+3. Add the .xlsx worksheet that includes coordinate details. If prompted to update drivers, try saving the xlsx file as a comma separated values (CSV) file first. The table appears under **Standalone tables**.  
   
    ![image of standalone tables](https://user-images.githubusercontent.com/45638590/231500314-33fd32b5-ed95-4a95-b4ce-822978d78f24.png)
 
